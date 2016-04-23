@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{014f3f8a-ebdc-4f6b-8abf-039e48cb0a0f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ffi">
+      <UniqueIdentifier>{1b3050cb-b959-4b36-95aa-339475db5c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{de7c8717-300e-491f-9feb-d8a9af0a5e96}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ffi">
+      <UniqueIdentifier>{f9191d7a-6587-4161-8ae6-8f3a66c0455f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\jnitl">
+      <UniqueIdentifier>{44c078e2-8fd0-4d01-a9e1-11cb14a8e436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{959915cf-e5cf-44ed-906f-c73259036292}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="com4j.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="com4j_Win32Lock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eventReceiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="invoke.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java_id.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="registry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="safearray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="toJava.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typelib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="variant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi\src\debug.c">
+      <Filter>Source Files\ffi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi\src\x86\ffi.c">
+      <Filter>Source Files\ffi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi\src\prep_cif.c">
+      <Filter>Source Files\ffi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi\src\types.c">
+      <Filter>Source Files\ffi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="com4j.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TestObject.rgs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="com4j.tlb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="com4j.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="..\libffi\src\x86\win32.asm">
+      <Filter>Source Files\ffi</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM64 Include="..\libffi\src\x86\win64.asm64">
+      <Filter>Source Files\ffi</Filter>
+    </MASM64>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_ITestObjectEvents_CP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cleanup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com4j.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com4j_ActiveXControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com4j_Native.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com4j_tlbimp_Native.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com4j_Variant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com4j_Win32Lock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eventReceiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java_id.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="safearray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thunkPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typelib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unmarshaller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="variant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xducer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xducer2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libffi\include\ffi.h">
+      <Filter>Header Files\ffi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libffi\include\ffi_common.h">
+      <Filter>Header Files\ffi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libffi\include\fficonfig.h">
+      <Filter>Header Files\ffi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libffi\include\ffitarget.h">
+      <Filter>Header Files\ffi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jnitl\include\jnitl.h">
+      <Filter>Header Files\jnitl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jnitl\include\jnitl_accessor.h">
+      <Filter>Header Files\jnitl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jnitl\include\jnitl_array.h">
+      <Filter>Header Files\jnitl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jnitl\include\jnitl_globalref.h">
+      <Filter>Header Files\jnitl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jnitl\include\jnitl_module.h">
+      <Filter>Header Files\jnitl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jnitl\include\jnitl_op.h">
+      <Filter>Header Files\jnitl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jnitl\include\jnitl_string.h">
+      <Filter>Header Files\jnitl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jnitl\include\jnitl_thread.h">
+      <Filter>Header Files\jnitl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="com4j.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
