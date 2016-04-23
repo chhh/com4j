@@ -1,3 +1,6 @@
+*.log
+*.tlog
+*.sdf
 *.obj
 *.ncb
 *.sln
