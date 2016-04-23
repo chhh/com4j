@@ -1,6 +1,7 @@
 *.log
 *.tlog
 *.sdf
+*.opensdf
 *.obj
 *.ncb
 *.sln
@@ -11,5 +12,8 @@
 *.res
 *.tlh
 *.tli
+*.exp
+*.ilk
 vc90.idb
 vc90.pdb
+**/ipch/
